@@ -35,6 +35,7 @@ async function getDashboardData(username: string) {
     const response = await fetch(`${process.env.BASE_URL}/api/users`);
     const users: User[] = await response.json();
     const user = users.find((user) => user.username === username);
+    console.log(user);
     return user?.dashboardStats;
   } catch (error) {
     console.warn(error);
