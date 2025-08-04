@@ -1,3 +1,5 @@
+"use client";
+
 export function getGreetingByHour(): string {
   const hour = new Date().getHours();
 
