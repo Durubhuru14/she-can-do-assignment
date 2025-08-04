@@ -1,4 +1,5 @@
 import { getUserFromCookie } from "@/lib/getUserFromCookie";
+import { getGreetingByHour } from "@/lib/getGreetingsByHour";
 import { CookieUser } from "@/types/cookieUserType";
 import Image from "next/image";
 import {
@@ -21,21 +22,11 @@ import { mergeAndSortRewards } from "@/lib/mergeAndSortRewards";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 
-function getGreetingByHour(): string {
-  const hour = new Date().getHours();
-
-  if (hour >= 6 && hour < 12) return "Good Morning 🌅";
-  if (hour >= 12 && hour < 16) return "Good Afternoon ☀️";
-  if (hour >= 16 && hour < 20) return "Good Evening 🌇";
-  return "Good Night 🌙";
-}
-
 async function getDashboardData(username: string) {
   try {
     const response = await fetch(`${process.env.BASE_URL}/api/users`);
     const users: User[] = await response.json();
     const user = users.find((user) => user.username === username);
-    console.log(user);
     return user?.dashboardStats;
   } catch (error) {
     console.warn(error);
@@ -49,7 +40,7 @@ export default async function DashboardPage() {
   const rewards = mergeAndSortRewards(dashboardStats?.rewards);
 
   const referralCode = `${user.username.toLowerCase()}${new Date().getFullYear()}`;
-  const greeting = getGreetingByHour();
+  const greeting: string = getGreetingByHour();
   return (
     <section className="px-4 py-4 sm:px-12 lg:px-20 w-full max-w-6xl mx-auto">
       <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
