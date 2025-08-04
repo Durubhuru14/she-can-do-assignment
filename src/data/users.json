@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "username": "Durubhuru",
+    "email": "durubhuru01@gmail.com",
+    "password": "durveshmore2006",
+    "pfp": "https://api.dicebear.com/9.x/pixel-art/svg?seed=Durubhuru&backgroundType=gradientLinear&backgroundColor=ffd5dc,c0aede",
+    "dashboardStats": {
+      "totalDonations": 74500,
+      "monthlyDonations": [
+        { "month": "January", "amount": 12000 },
+        { "month": "February", "amount": 15000 },
+        { "month": "March", "amount": 8000 },
+        { "month": "April", "amount": 10000 },
+        { "month": "May", "amount": 9500 },
+        { "month": "June", "amount": 12000 },
+        { "month": "July", "amount": 7500 }
+      ],
+      "rewards": [
+        {
+          "category": "Referrals",
+          "name": "Social Butterfly I",
+          "icon": "/assets/Referrals/Social_butterfly_1.svg",
+          "unlocked": true,
+          "progress": 10,
+          "goal": 10
+        },
+        {
+          "category": "Donations Made",
+          "name": "Getting Started",
+          "icon": "/assets/donations_made/Getting_Started.svg",
+          "unlocked": true,
+          "progress": 1,
+          "goal": 1
+        },
+        {
+          "category": "Money Raised",
+          "name": "Getting Some Bread",
+          "icon": "/assets/money_raised/Getting_some_bread.svg",
+          "unlocked": true,
+          "progress": 74500,
+          "goal": 1000
+        },
+        {
+          "category": "Money Raised",
+          "name": "Unpaid Hard Worker",
+          "icon": "/assets/money_raised/Unpaid_hard_worker.svg",
+          "unlocked": true,
+          "progress": 74500,
+          "goal": 10000
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "username": "AnanyaVerma",
+    "email": "ananya.verma03@gmail.com",
+    "password": "ananya123",
+    "pfp": "https://api.dicebear.com/9.x/pixel-art/svg?seed=AnanyaVerma&backgroundType=gradientLinear&backgroundColor=ffd5dc,c0aede",
+    "dashboardStats": {
+      "totalDonations": 3200,
+      "monthlyDonations": [
+        { "month": "May", "amount": 1000 },
+        { "month": "June", "amount": 2200 }
+      ],
+      "rewards": [
+        {
+          "category": "Money Raised",
+          "name": "Getting Some Bread",
+          "icon": "/assets/money_raised/Getting_some_bread.svg",
+          "unlocked": true,
+          "progress": 3200,
+          "goal": 1000
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "username": "RahulMehta",
+    "email": "rahulmehta14@yahoo.com",
+    "password": "rahulpass456",
+    "pfp": "https://api.dicebear.com/9.x/pixel-art/svg?seed=RahulMehta&backgroundType=gradientLinear&backgroundColor=ffd5dc,c0aede",
+    "dashboardStats": {
+      "totalDonations": 0,
+      "monthlyDonations": [],
+      "rewards": []
+    }
+  },
+  {
+    "id": 4,
+    "username": "SnehaPatil",
+    "email": "sneha_patil99@outlook.com",
+    "password": "sneha456",
+    "pfp": "https://api.dicebear.com/9.x/pixel-art/svg?seed=SnehaPatil&backgroundType=gradientLinear&backgroundColor=ffd5dc,c0aede",
+    "dashboardStats": {
+      "totalDonations": 5800,
+      "monthlyDonations": [{ "month": "July", "amount": 5800 }],
+      "rewards": [
+        {
+          "category": "Money Raised",
+          "name": "Getting Some Bread",
+          "icon": "/assets/money_raised/Getting_some_bread.svg",
+          "unlocked": true,
+          "progress": 5800,
+          "goal": 1000
+        },
+        {
+          "category": "Donations Made",
+          "name": "Getting Started",
+          "icon": "/assets/donations_made/Getting_Started.svg",
+          "unlocked": true,
+          "progress": 1,
+          "goal": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "username": "AaravSharma",
+    "email": "aarav.sharma22@gmail.com",
+    "password": "aarav@321",
+    "pfp": "https://api.dicebear.com/9.x/pixel-art/svg?seed=AaravSharma&backgroundType=gradientLinear&backgroundColor=ffd5dc,c0aede",
+    "dashboardStats": {
+      "totalDonations": 15000,
+      "monthlyDonations": [
+        { "month": "March", "amount": 8000 },
+        { "month": "April", "amount": 7000 }
+      ],
+      "rewards": [
+        {
+          "category": "Money Raised",
+          "name": "Getting Some Bread",
+          "icon": "/assets/money_raised/Getting_some_bread.svg",
+          "unlocked": true,
+          "progress": 15000,
+          "goal": 1000
+        },
+        {
+          "category": "Money Raised",
+          "name": "Unpaid Hard Worker",
+          "icon": "/assets/money_raised/Unpaid_hard_worker.svg",
+          "unlocked": true,
+          "progress": 15000,
+          "goal": 10000
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "username": "PoojaReddy",
+    "email": "poojareddy11@gmail.com",
+    "password": "reddyP007",
+    "pfp": "https://api.dicebear.com/9.x/pixel-art/svg?seed=PoojaReddy&backgroundType=gradientLinear&backgroundColor=ffd5dc,c0aede",
+    "dashboardStats": {
+      "totalDonations": 450,
+      "monthlyDonations": [{ "month": "June", "amount": 450 }],
+      "rewards": []
+    }
+  },
+  {
+    "id": 7,
+    "username": "KaranSingh",
+    "email": "karansingh88@gmail.com",
+    "password": "karansingh@2025",
+    "pfp": "https://api.dicebear.com/9.x/pixel-art/svg?seed=KaranSingh&backgroundType=gradientLinear&backgroundColor=ffd5dc,c0aede",
+    "dashboardStats": {
+      "totalDonations": 21000,
+      "monthlyDonations": [
+        { "month": "May", "amount": 10000 },
+        { "month": "July", "amount": 11000 }
+      ],
+      "rewards": [
+        {
+          "category": "Money Raised",
+          "name": "Getting Some Bread",
+          "icon": "assets/money_raised/Getting_some_bread.svg",
+          "unlocked": true,
+          "progress": 21000,
+          "goal": 1000
+        },
+        {
+          "category": "Money Raised",
+          "name": "Unpaid Hard Worker",
+          "icon": "assets/money_raised/Unpaid_hard_worker.svg",
+          "unlocked": true,
+          "progress": 21000,
+          "goal": 10000
+        }
+      ]
+    }
+  }
+]
