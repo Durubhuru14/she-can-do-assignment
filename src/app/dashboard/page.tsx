@@ -1,5 +1,4 @@
 import { getUserFromCookie } from "@/lib/getUserFromCookie";
-import { getGreetingByHour } from "@/lib/getGreetingsByHour";
 import { CookieUser } from "@/types/cookieUserType";
 import Image from "next/image";
 import {
@@ -21,6 +20,7 @@ import { mergeAndSortRewards } from "@/lib/mergeAndSortRewards";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
+import Greeting from "@/components/ui/greeting-message";
 
 async function getDashboardData(username: string) {
   try {
@@ -40,12 +40,9 @@ export default async function DashboardPage() {
   const rewards = mergeAndSortRewards(dashboardStats?.rewards);
 
   const referralCode = `${user.username.toLowerCase()}${new Date().getFullYear()}`;
-  const greeting: string = getGreetingByHour();
   return (
     <section className="px-4 py-4 sm:px-12 lg:px-20 w-full max-w-6xl mx-auto">
-      <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        Hello {user.username} 👋, {greeting}
-      </h2>
+      <Greeting username={user.username}/>
       <div className="w-full bg-secondary grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4 p-4 rounded-md">
         {/* Name */}
         <Card>
