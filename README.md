@@ -1,7 +1,10 @@
 # Developer Note
 
-All code is kinda not good i mean types are all over the place and the data is stored in weird way but this frankenstein still works and I am grateful that.
+All code is kinda not good i mean types are all over the place and the data is stored in weird way but this frankenstein still works and I am grateful for that.
 There is a lot of things that can be in different way but for now this is good enough and as prototype gives a head-start to make it as proper website
+Btw you can use `api/users` email and passowrd for login:
+email: durubhuru01@gmail.com
+password: duvreshmore2006
 
 ## 🐣 Author
 
